@@ -11,7 +11,6 @@
     <div class="w-full max-w-md bg-white rounded-2xl shadow-xl p-8 border border-blue-100">
         <div class="text-center mb-8">
             <h1 class="text-2xl font-bold text-gray-900">Login Sistem</h1>
-            {{-- <p class="text-sm text-gray-600 mt-2">Masuk sebagai admin untuk mengelola data guru dan mata pelajaran.</p> --}}
         </div>
 
         @if (session('success'))
@@ -64,13 +63,6 @@
                 Login
             </button>
         </form>
-
-        {{-- <div class="mt-6 p-3 rounded-lg bg-blue-50 border border-blue-100 text-xs text-blue-800">
-            <p><span class="font-semibold">Akun admin default</span></p>
-            <p>Email: <code>admin@sekolah.local</code></p>
-            <p>Password: <code>admin12345</code></p>
-            <p class="mt-1">Bisa diubah dari file <code>.env</code> dengan <code>ADMIN_EMAIL</code> dan <code>ADMIN_PASSWORD</code>.</p>
-        </div> --}}
     </div>
 </body>
 </html>

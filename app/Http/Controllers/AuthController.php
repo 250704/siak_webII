@@ -14,7 +14,7 @@ class AuthController extends Controller
             return redirect()->route('guru.index');
         }
 
-        return view('welcome');
+        return view('login');
     }
 
     public function login(Request $request): RedirectResponse
